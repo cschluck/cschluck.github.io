@@ -1,4 +1,9 @@
-h1 {color: #333399;} /*This color is blue */
+h1 {color: #3366ff; font-size: 20pt; font-family: sans-serif} /*This color is blue */
+h3 {color: #3399ff; font-size: 16pt; font-family: sans-serif}
+main p {font-size: 12pt; font-family: sans-serif;}
+.Teacher {font-size: 12pt; font-family: sans-serif; color: #33cc99;}
+.eMINTS {font-size: 12pt; font-family: sans-serif; color: blueviolet;}
+img {float: right;}
 footer::first-letter {font-size: 8pt;}
 footer a:link {color: orange;}
 footer a:hover {color: red;}
