@@ -1,21 +1,53 @@
 <!DOCTYPE html>
 <html lang="en-US">
-    <!--<p>validated April, 10 2020.</p>-->
+<!--
+    Title: Home Page
+    Use: Introduce user to myself
+    Author: Cindy Schluckebier
+    Developed: April 15, 2020
+    Tested: April 26, 2020; Passed on Firefox and Chrome
+-->
 <head>
     <title>Home Page</title>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="nav.css">
+
 </head>
 <body>
     <header>
         <h1>Cindy Schluckebier</h1>
     </header>
-    <main>  
+    
+    <nav>
+    <p>Professional Portfolio</p>
+    <label for="toggle">&#9776;</label>
+    <input type="checkbox" id="toggle"/>
+    <ul id="menu">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Resume</a></li>
+        <li><a href="background.html">Background</a></li>
+        <li><a href="#experience.html">Experience &#129067;</a>
+            <ul id="goals"> 
+            <li><a href="goal1.html">Goal 1</a></li>
+            <li><a href="goal2.html">Goal 2</a></li>
+            <li><a href="goal3.html">Goal 3</a></li>
+            </ul>
+        </li>
+        <li><a href="reflection.html">Reflection</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+    </nav>
+    
+    <main>
+    <aside id="imageschluck">                  
+            <img src="images/schluckebier.jpg" alt="Cindy Schluckebier">
+    </aside>
+    <section id="welcome">                         
         <h3>Welcome!</h3>
         <p>Meet Cindy Schluckebier! Feel free to explore this site and learn more about Cindy. She worked as an entrepreneur for around 10 years before entering education. Cindy has taken her real world experiences from growing up in family business and is now facilitating learning at a student operated business, All Things Independence, in Independence, Missouri.</p> 
         <p>In addition to teaching, Cindy is passionate about helping teachers grow and love their job. When coaching teachers Cindy takes an empathetic approach to leading teachers. She enjoys empowering teachers to implement a curriculum that engages and empowers their students to higher levels of achievement.</p>
-        
-        <img src="images/schluckebier.jpg" alt="Cindy Schluckebier" height="250">
         
         <h3>Education</h3>
         <ul class="Teacher">
@@ -27,35 +59,45 @@
                 </ul>
             </li>
         </ul>
+        </section>
+        <section id="glance">  
+        <h3>At a Glance</h3>
         <p>Cindy began her teaching career in New Franklin, Missouri. Her tenure at New Franklin brought significant professional growth. Cindy became a certified eMINTS teacher and later an Affiliate eMINTS trainer for the district. In addition to her teaching schedule she delivered professional development to her peers. As previously mentioned Cindy was an entrepreneur at a familiy business before teaching. Clatworthy’s was in business for 73 years. She was the third generation to operate this business with her dad and grandpa. Cindy was in charge of merchandising, purchasing, and customer service. She had a dream with her dad of incorporating a student operated business with retail. They hosted students at Clatworthy's who were interested in business and entrepreneurship as interns through the local high school. Little did Cindy know about 10 years later her dream would come true.</p>
-        
+        </section>
+        <aside id="column1">
         <h3>Experience</h3>
         <ul class="Teacher">
             <li>Independence School District; Business Teacher (2016-current)</li>
             <li>New Franklin R-1; Business Teacher (2005-2016)</li>
             <li>Clatworthy's; Entrepreneur (1999-2009)</li>
         </ul>
+            </aside>
+        <aside id="Certs">
         <h3>Certifications</h3>
         <ul class="Teacher">
             <li>eMINTS Teacher (2009)</li>
             <li>Master Trainer Intel Thinking with Technology (2010)</li>
             <li>Affiliate eMINTS Trainer (2016)</li>  
         </ul>
-        
+            </aside>
+        <aside id="column3">
         <h3>Career Skills</h3>
         <ol class="Teacher">
-            <li>Innvoating</li>
+            <li>Innovating</li>
             <li>Organizing</li>
             <li>Developing Others</li>
         </ol>
-        <blockquote>&ldquo;Kindness is a language that the deaf can hear and the blind can see.&rdquo; - Mark Twain</blockquote>
+            </aside>
+        
+        <blockquote>&ldquo;Kindness is a language that the deaf can hear and the blind can see.&rdquo; - Mark Twain
+        </blockquote>
     
     </main>
-<footer>
-    <p>&copy; 2020 Cindy Schluckebier 
-    <a href="mailto:cindy.schluckebier@k12perform.com">cindy.schluckebier@k12perform.com</a>
-    </p>
-</footer>
+    <footer>
+        <p>&copy; 2020 Cindy Schluckebier 
+        <a href="mailto:cindy.schluckebier@k12perform.com">cindy.schluckebier@k12perform.com</a>
+        </p>
+    </footer>
 </body>
 
 

@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <!--
-    Title: Resume Page
-    Use: Link Resume to site
+    Title: Home Page
+    Use: Introduce user to myself
     Author: Cindy Schluckebier
     Developed: April 15, 2020
     Tested: April 26, 2020; Passed on Firefox and Chrome
 -->
 <head>
-    <title>Resume</title>
+    <title>Home Page</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="nav.css">
-</head>
+    <style>
+        h3 {text-align: center;}
+    </style>
 
+</head>
 <body>
     <header>
-        <h1>Resume</h1>
+        <h1>Contact</h1>
     </header>
-<nav>
+    
+    <nav>
     <p>Professional Portfolio</p>
     <label for="toggle">&#9776;</label>
     <input type="checkbox" id="toggle"/>
@@ -38,22 +42,33 @@
         <li><a href="contact.html">Contact</a></li>
     </ul>
     </nav>
-    <main>
-        <section class="video">
-        <h3>Video</h3>
-        <p>The video we are required to make will be placed here.</p>
-        </section>
-        <section class="resume">
-        <h3>
-        <a href="docs/schluckebierresume.pdf">Resume</a></h3>
-        <p>View Cindy's resume to see her more of her credentials.</p>
-        </section>
-    </main>
-<footer>
-    <p>&copy; 2020 Cindy Schluckebier 
-    <a href="mailto:cindy.schluckebier@k12perform.com">cindy.schluckebier@k12perform.com</a>
-    </p>      
-</footer>
-
+    
+    <main id="connect">
+    <h3>Connect with Cindy</h3>
+    <!--The ul below will be a form -->
+    <ul>
+        <li>Full Name</li>
+        <li>Company/School District</li>
+        <li>State</li>
+        <li>Zip Code</li>
+        <li>Preferred Email</li>
+        <li>Phone #</li>
+        <li>Select the topics you would like to discuss
+        <ul>
+            <li>Student Enterprise</li>
+            <li>Virtual Learning</li>
+            <li>Redesigning Education for the Future</li>
+            <li>EdTech in the Classroom</li>
+        </ul>
+        </li>
+        </ul>
+     </main>
+    <footer>
+        <p>&copy; 2020 Cindy Schluckebier 
+        <a href="mailto:cindy.schluckebier@k12perform.com">cindy.schluckebier@k12perform.com</a>
+        </p>
+    </footer>
 </body>
+
+
 </html>

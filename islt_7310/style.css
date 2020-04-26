@@ -1,22 +1,125 @@
-h1 {color: #3366ff; font-size: 20pt; font-family: sans-serif; text-align: center; border-bottom: solid; border-bottom-width: 8px; border-bottom-color: darkgray; background-color: lightgray;}
-h3 {color: #3366ff; font-size: 16pt; font-family: sans-serif; font-weight: bold;}
-body {background-color: lightgray; margin: 15px;}
-main p {font-size: 12pt; font-family: sans-serif;}
-.Teacher {font-size: 12pt; font-family: sans-serif; color: #3399ff;}
-.eMINTS {font-size: 12pt; font-family: sans-serif; color: #cc6633;}
-img {float: right; padding: 8px; border-style: solid; border-width: 15px; border-color: darkgray; margin: auto;} 
+/*******************************************************************
+* Description: Primary style sheet for Cindy Schluckebier Portfolio
+* Author: Cindy Schluckebier
+* validated April 26, 2020 
+*******************************************************************/
+h1 {color: #3366ff; font-size: 2rem; font-family: sans-serif; text-align: center; border-bottom: solid; border-bottom-width: 8px; border-bottom-color: darkgray; background-color: lightgray;}
+
+h3 {color: #3366ff; font-size: 1.33em; font-family: sans-serif; font-weight: bold;}
+
+body {background-color: lightgray; margin: 15px; padding: 25px; width: 90%;}
+
+main p {font-size: 1em; font-family: sans-serif;}
+
+.Teacher {font-size: 1em; font-family: sans-serif; color: #3399ff; }
+
+.eMINTS {font-size: 1em; font-family: sans-serif; color: #cc6633;}
+
+#welcome {float: left; width: 670px; max-width: 70%;margin-left: 2em;}
+
+#Personal {float: left; max-width: 100%;margin-left: 2em;}
+
+img {padding: 8px; border-style: solid; border-width: 15px; border-color: darkgray;}
+
+#imageschluck {float: right; margin-right: 2em;width: 100%; max-width: 400px; height: auto; margin-top: 1em;}
+
+#imagegoals {float: right; margin-right: 2em; width: 100%; max-width: 400px; height: auto; margin-bottom: .75em;}
+
+#glance {float: left; max-width: 100%;}
+
+#column1 {float: left; height: 200px; padding: 10px; width: 300px; max-width: 30%; margin-right: 2em; margin-left: 2em;}
+
+#Certs {float: left; padding: 10px; width: 300px; max-width: 30%; height: 200px; margin-right: 2em;} 
+
+#column3 {float: left; height: 200px; padding: 10px; width: 300px; max-width: 33%; margin-right: 2em;} 
+
+#HQL {float: left; height: 425px; padding: 10px; width: 350px; max-width: 40%; margin-right: 2em; margin-left: 2em;}
+
+#COL {float: left; padding: 10px; width: 300px; max-width: 30%; height: 425px; margin-right: 2em;} 
+
+#Tech {float: left; height: 425px; padding: 10px; width: 300px; max-width: 30%; margin-right: 2em;}
+p.reflection::first-letter {font-size: 1.33em; color: #3366ff; }
+
+p.philosophy::first-line {text-indent: 30px;}
+
+.video {
+        margin: auto;
+        width: 60%;
+        border: 10px solid darkgray;
+        margin-top: 2em;
+        margin-bottom:2em;
+        text-align: center;
+        }
+        .resume {
+        margin: auto;
+        width: 60%;
+        border: 10px solid darkgray;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        text-align: center;
+        }   
+            
+#connect {
+        margin: auto;
+        width: 60%;
+        border: 10px solid darkgray;
+        margin-top: 2em;
+        margin-bottom:2em;    
+        }
+#Goals {float: left; height: 200px; padding: 10px; width: 300px; max-width: 30%; margin-right: 2em; margin-left: 2em; padding-top: 2em;}
+
+#Experience {float: left; height: 425px; padding: 10px; width: 450px; max-width: 50%; margin-right: 2em; margin-left: 2em;}
+
+#Certifications {float: left; height: 425px; padding: 10px; width: 450px; max-width: 50%; margin-right: 2em; margin-left: 2em;}
+
 main a:link {color: orange;}
 main a:hover {color: red;}
 main a:visited {color: green;}
 main a:active {color: purple;}
 main a:focus {color: pink;}
-blockquote {font-family: sans-serif;}
-footer {border-top: dotted; border-top-color: black; border-top-width: 4px; padding-top: 5px;}
-footer::first-letter {font-size: 8pt;}
+
+blockquote {font-family: sans-serif; font-size: 1em; clear: both; padding-top: 2em;}
+
+footer {margin-top: 2em; border-top: dotted; border-top-color: black; border-top-width: 4px; padding-top: 5px; clear: both;}
+
+footer::first-letter {font-size: .6777em;}
 footer a:link {color: orange;}
 footer a:hover {color: red;}
 footer a:visited {color: green;}
 footer a:active {color: purple;}
 footer a:focus {color: pink;}
-footer a {text-decoration: none; font-size: 10pt;}
-/* validated April, 10 2020 */
+footer a {text-decoration: none; font-size: .8333em;}
+@media screen and (max-width:889px){
+    h1{font-size:2em;}
+    h3{font-size: 1em;}
+    main p{font-size: .75em; line-height: 1em;}
+    blockquote{font-size: .75em;}
+    .eMINTS {font-size: .75em;}
+}
+@media screen and (max-width:669px){
+    #welcome{clear:both; width:100%; line-height: 1em; margin-left: 1em;}
+    .Teacher{font-size: .75em; margin-left: 1em;}
+    #column1{clear:both; height: auto; font-size: .75em; line-height: 1em; width:100%; margin-left: 1em;}
+    #Certs{clear:both; font-size: .75em; height: auto; width:100%; line-height: 1em; margin-left: 1em; margin-top: 1em;}
+    #column3{clear:both; font-size: .75em; height: auto; width:100%; line-height: 1em; margin-left: 1em;}
+}
+@media screen and (max-width:889px){    
+    #Personal{clear:both; width:100%; line-height: 1em; margin-left: 1em;}
+    #HQL{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
+    #COL{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
+    #Tech{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
+    #Goals{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
+}
+@media screen and (max-width:400px){
+    .video{width:100%; line-height: 1em; margin-left: 1em;}
+    .resume{width:100%; line-height: 1em; margin-left: 1em;}
+   
+}
+
+@media screen and (max-width:779px){
+     #Experience{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
+     #Certifications{clear:both; height: auto; width:100%; line-height: 1em; margin-left: 1em;}
+}
+@media screen and (max-width:375px){
+     #connect{width:100%; line-height: 1em; margin-left: 1em;}
+}
