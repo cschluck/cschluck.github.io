@@ -19,11 +19,9 @@ main p {font-size: 1em; font-family: sans-serif;}
 
 #Personal {float: left; max-width: 100%;margin-left: 2em;}
 
-img {padding: 8px; border-style: solid; border-width: 15px; border-color: darkgray;}
+#imageschluck {padding: 8px; border-style: solid; border-width: 15px; border-color: darkgray;float: right; margin-right: 2em; max-width: 400px; height: auto; margin-top: 1em;}
 
-#imageschluck {float: right; margin-right: 2em;width: 100%; max-width: 400px; height: auto; margin-top: 1em;}
-
-#imagegoals {float: right; margin-right: 2em; width: 100%; max-width: 400px; height: auto; margin-bottom: .75em;}
+#imagegoals {padding: 8px; border-style: solid; border-width: 15px; border-color: darkgray; float: left; margin-left: 2em; margin-right: 2em; max-width: 400px; height: auto; margin-bottom: .75em;}
 
 #glance {float: left; max-width: 100%;}
 
@@ -42,14 +40,15 @@ p.reflection::first-letter {font-size: 1.33em; color: #3366ff; }
 
 p.philosophy::first-line {text-indent: 30px;}
 
-.video {
-        margin: auto;
-        width: 60%;
-        border: 10px solid darkgray;
-        margin-top: 2em;
-        margin-bottom:2em;
+.iframe-container {
+        position: relative;
+        width: 100%;
+        padding-top: 20px;    
+        padding-bottom: 5px;
+        height: 100%;
         text-align: center;
-        }
+        }  
+
         .resume {
         margin: auto;
         width: 60%;
@@ -80,7 +79,18 @@ main a:focus {color: pink;}
 
 blockquote {font-family: sans-serif; font-size: 1em; clear: both; padding-top: 2em;}
 
-footer {margin-top: 2em; border-top: dotted; border-top-color: black; border-top-width: 4px; padding-top: 5px; clear: both;}
+.box {
+    width: 100%;
+    height: 100px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 2px darkgrey;
+    border: 10px solid darkgrey;
+    
+    background-image: url(footer.png);
+    background-size: cover;
+    text-align: center;
+}
+footer {margin-top: 2em; border-top: dotted; border-top-color: black; border-top-width: 4px; padding: 10px; clear: both;font-family: sans-serif; font-size: .75em; text-align: center;}
 
 footer::first-letter {font-size: .6777em;}
 footer a:link {color: orange;}
@@ -110,8 +120,8 @@ footer a {text-decoration: none; font-size: .8333em;}
     #Tech{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
     #Goals{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
 }
-@media screen and (max-width:400px){
-    .video{width:100%; line-height: 1em; margin-left: 1em;}
+@media screen and (max-width:380px){
+    .iframe-container{width:100%; line-height: 1em; margin-left: 1em;}
     .resume{width:100%; line-height: 1em; margin-left: 1em;}
    
 }
@@ -122,4 +132,8 @@ footer a {text-decoration: none; font-size: .8333em;}
 }
 @media screen and (max-width:375px){
      #connect{width:100%; line-height: 1em; margin-left: 1em;}
+}
+
+@media screen and (max-width: 375px) {
+    .box {clear:both; width:100%; line-height: 1em; margin-left: 1em;}
 }
