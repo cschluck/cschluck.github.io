@@ -3,9 +3,16 @@
 * Author: Cindy Schluckebier
 * validated April 26, 2020 
 *******************************************************************/
-h1 {color: #3366ff; font-size: 2rem; font-family: sans-serif; text-align: center; border-bottom: solid; border-bottom-width: 8px; border-bottom-color: darkgray; background-color: lightgray;}
+@font-face { 
 
-h3 {color: #3366ff; font-size: 1.33em; font-family: sans-serif; font-weight: bold;}
+font-family: Oswald-Bold; /*this is where we give our font a name so we can use it!*/
+
+src: url("Oswald-Bold.ttf"); /*remember this is how we link to files in CSS!*/
+
+}
+h1 {color: #3366ff; font-size: 2rem; font-family: Oswald-Bold; text-align: center; border-bottom: solid; border-bottom-width: 8px; border-bottom-color: darkgray; background-color: lightgray;}
+
+h3 {color: #3366ff; font-size: 1.33em; font-family: Oswald-Bold; font-weight: bold;}
 
 body {background-color: lightgray; margin: 15px; padding: 25px; width: 90%;}
 
@@ -40,13 +47,13 @@ p.reflection::first-letter {font-size: 1.33em; color: #3366ff; }
 
 p.philosophy::first-line {text-indent: 30px;}
 
+
+
 .iframe-container {
-        position: relative;
         width: 100%;
         padding-top: 20px;    
         padding-bottom: 5px;
         height: 100%;
-        text-align: center;
         }  
 
         .resume {
@@ -79,8 +86,10 @@ main a:focus {color: pink;}
 
 blockquote {font-family: sans-serif; font-size: 1em; clear: both; padding-top: 2em;}
 
+
+
 .box {
-    width: 100%;
+    width: 90%;
     height: 100px;
     padding: 20px;
     box-shadow: 0px 0px 10px 2px darkgrey;
@@ -88,9 +97,13 @@ blockquote {font-family: sans-serif; font-size: 1em; clear: both; padding-top: 2
     
     background-image: url("images/footer.png");
     background-size: cover;
-    text-align: center;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: enter;
 }
 footer {margin-top: 2em; border-top: dotted; border-top-color: black; border-top-width: 4px; padding: 10px; clear: both;font-family: sans-serif; font-size: .75em; text-align: center;}
+
+
 
 footer::first-letter {font-size: .6777em;}
 footer a:link {color: orange;}
@@ -135,5 +148,33 @@ footer a {text-decoration: none; font-size: .8333em;}
 }
 
 @media screen and (max-width: 375px) {
-    .box {clear:both; width:100%; line-height: 1em; margin-left: 1em;}
+    .box {clear:both; width:90%; height: auto; line-height: 1em; margin-left: .75em; margin-right: .75em; padding-bottom: 2px;}
 }
+
+@media print{
+    *{
+    background: transparent;
+    color: #000;
+    font-family: serif;
+    
+   
+        }
+    }
+@media print{
+    h1 {
+        font-family:Oswald-Bold;
+        color: black;
+    }
+}
+@media print{
+    .nav {display: none;}
+    .box {display:none;}
+    }
+@media print{
+    #welcome {width: 10cm; height: auto;}
+    #glance {display:none;}
+    #column1 {display:none;}
+    #Certs {display:none;}
+    #column3 {display:none;}
+}
+
