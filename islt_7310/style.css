@@ -7,7 +7,7 @@
 
 font-family: Oswald-Bold; /*this is where we give our font a name so we can use it!*/
 
-src: url("Oswald-Bold.ttf"); /*remember this is how we link to files in CSS!*/
+src: url(Oswald-Bold.ttf); /*remember this is how we link to files in CSS!*/
 
 }
 h1 {color: #3366ff; font-size: 2rem; font-family: Oswald-Bold; text-align: center; border-bottom: solid; border-bottom-width: 8px; border-bottom-color: darkgray; background-color: lightgray;}
@@ -99,7 +99,7 @@ blockquote {font-family: sans-serif; font-size: 1em; clear: both; padding-top: 2
     background-size: cover;
     margin-left: 1em;
     margin-right: 1em;
-    text-align: enter;
+    text-align: center;
 }
 footer {margin-top: 2em; border-top: dotted; border-top-color: black; border-top-width: 4px; padding: 10px; clear: both;font-family: sans-serif; font-size: .75em; text-align: center;}
 
