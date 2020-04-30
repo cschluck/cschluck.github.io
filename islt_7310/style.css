@@ -3,26 +3,20 @@
 * Author: Cindy Schluckebier
 * validated April 26, 2020 
 *******************************************************************/
-@font-face { 
 
-font-family: Oswald-Bold; /*this is where we give our font a name so we can use it!*/
+h1 {color: #3366ff; font-size: 2rem; font-family: "Oswald"; text-align: center; border-bottom: solid; border-bottom-width: 8px; border-bottom-color: darkgray; background-color: lightgray;}
 
-src: url(Oswald-Bold.ttf); /*remember this is how we link to files in CSS!*/
+h3 {color: #3366ff; font-size: 1.33em; font-family: "Oswald";}
 
-}
-h1 {color: #3366ff; font-size: 2rem; font-family: Oswald-Bold; text-align: center; border-bottom: solid; border-bottom-width: 8px; border-bottom-color: darkgray; background-color: lightgray;}
+body {font-family: "Montserrat"; background-color: lightgray; margin: 15px; padding: 25px; width: 90%;}
 
-h3 {color: #3366ff; font-size: 1.33em; font-family: Oswald-Bold; font-weight: bold;}
+main p {font-size: 1em; font-family: "Montserrat"}
 
-body {background-color: lightgray; margin: 15px; padding: 25px; width: 90%;}
+.Teacher {font-size: 1em; font-family: "Montserrat"; color: #000; }
 
-main p {font-size: 1em; font-family: sans-serif;}
+.eMINTS {font-size: 1em; font-family: sans-serif; color: #000;}
 
-.Teacher {font-size: 1em; font-family: sans-serif; color: #3399ff; }
-
-.eMINTS {font-size: 1em; font-family: sans-serif; color: #cc6633;}
-
-#welcome {float: left; width: 670px; max-width: 70%;margin-left: 2em;}
+#welcome {float: left; width: 670px; max-width: 70%; margin-left: 1em;}
 
 #Personal {float: left; max-width: 100%;margin-left: 2em;}
 
@@ -30,7 +24,7 @@ main p {font-size: 1em; font-family: sans-serif;}
 
 #imagegoals {padding: 8px; border-style: solid; border-width: 15px; border-color: darkgray; float: left; margin-left: 2em; margin-right: 2em; max-width: 400px; height: auto; margin-bottom: .75em;}
 
-#glance {float: left; max-width: 100%;}
+#glance {float: left; max-width: 90%; margin-left: 2em; margin-right: 2em;}
 
 #column1 {float: left; height: 200px; padding: 10px; width: 300px; max-width: 30%; margin-right: 2em; margin-left: 2em;}
 
@@ -84,7 +78,7 @@ main a:visited {color: green;}
 main a:active {color: purple;}
 main a:focus {color: pink;}
 
-blockquote {font-family: sans-serif; font-size: 1em; clear: both; padding-top: 2em;}
+blockquote {font-family: "Montserrat"; font-size: 1em; clear: both; padding-top: 2em;}
 
 
 
@@ -101,7 +95,7 @@ blockquote {font-family: sans-serif; font-size: 1em; clear: both; padding-top: 2
     margin-right: 1em;
     text-align: center;
 }
-footer {margin-top: 2em; border-top: dotted; border-top-color: black; border-top-width: 4px; padding: 10px; clear: both;font-family: sans-serif; font-size: .75em; text-align: center;}
+footer {margin-top: 2em; border-top: dotted; border-top-color: black; border-top-width: 4px; padding: 10px; clear: both; font-family: "Montserrat"; font-size: .75em; text-align: center;}
 
 
 
@@ -134,8 +128,8 @@ footer a {text-decoration: none; font-size: .8333em;}
     #Goals{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
 }
 @media screen and (max-width:380px){
-    .iframe-container{width:100%; line-height: 1em; margin-left: 1em;}
-    .resume{width:100%; line-height: 1em; margin-left: 1em;}
+    .iframe-container{width:100%; line-height: 1em; margin-left: 1em;margin-right: 1em;}
+    .resume{width:100%; line-height: 1em; margin-left: 1em; margin-right: 1em;}
    
 }
 
@@ -162,9 +156,13 @@ footer a {text-decoration: none; font-size: .8333em;}
     }
 @media print{
     h1 {
-        font-family:Oswald-Bold;
+        font-family:"Oswald";
         color: black;
     }
+    h3 {
+        font-family: "Oswald";
+        color: black;
+}
 }
 @media print{
     .nav {display: none;}

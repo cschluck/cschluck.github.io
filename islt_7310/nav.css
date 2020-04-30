@@ -9,10 +9,9 @@ nav{
     background-color: white;
     }
 nav p{
-    font-family: sans-serif;
+    font-family: "Oswald";
     color: #3366ff;
-    font-size: 1.1667em;
-    font-weight: bold;  
+    font-size: 1.1667em; 
     float: left;
     padding: 0px 20px;
     }
@@ -28,7 +27,7 @@ nav ul li{
     }
 nav ul li a{
     display: block;
-    font-family: sans-serif;
+    font-family: "Oswald";
     color: darkgray;
     font-size: 1em;
     padding: 3px 30px;
