@@ -8,6 +8,8 @@ h1 {color: #3366ff; font-size: 2rem; font-family: "Oswald"; text-align: center; 
 
 h3 {color: #3366ff; font-size: 1.33em; font-family: "Oswald";}
 
+h4 {font-size: 1.25em; font-family: "Montserrat"}
+
 body {font-family: "Montserrat"; background-color: lightgray; margin: 15px; padding: 25px; width: 90%;}
 
 main p {font-size: 1em; font-family: "Montserrat"}
@@ -39,6 +41,41 @@ main p {font-size: 1em; font-family: "Montserrat"}
 #Tech {float: left; height: 500px; padding: 10px; width: 300px; max-width: 30%; margin-left: 2em; margin-right: 2em;}
 p.reflection::first-letter {font-size: 1.33em; color: #3366ff; }
 
+#Clat {
+        margin-left: .5em;
+        margin-right: .5em;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 95%;
+        border: 10px solid darkgray;
+        background-color: white;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        }   
+
+#nf {
+        margin-left: .5em;
+        margin-right: .5em;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 95%;
+        border: 10px solid darkgray;
+        background-color: white;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        }
+
+#ati {
+        margin-left: .5em;
+        margin-right: .5em;
+        padding-left: 10px;
+        padding-right: 10px;
+        width: 95%;
+        border: 10px solid darkgray;
+        background-color: white;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        }   
 p.philosophy::first-line {text-indent: 30px;}
 
 
@@ -106,9 +143,38 @@ footer a:visited {color: green;}
 footer a:active {color: purple;}
 footer a:focus {color: pink;}
 footer a {text-decoration: none; font-size: .8333em;}
+
+.email {
+    width: 25px;
+    height: auto;
+}
+.emailbig {
+    position: absolute;
+    width: 0;
+    -webkit-transition:width 0.3s linear 1s;
+    transition:width 0.3s linear 0s; z-index: 10;
+}
+.email:hover + .emailbig{
+    width:50px;
+}
+
+.phone {
+    width: 25px;
+    height: auto;
+}
+.phonebig {
+    position: absolute;
+    width: 0;
+    -webkit-transition:width 0.3s linear 1s;
+    transition:width 0.3s linear 0s; z-index: 10;
+}
+.phone:hover + .phonebig{
+    width:50px;
+}
 @media screen and (max-width:889px){
     h1{font-size:2em;}
     h3{font-size: 1em;}
+    h4{font-size: 1em;}
     main p{font-size: .75em; line-height: 1em;}
     blockquote{font-size: .75em;}
     .eMINTS {font-size: .75em;}
@@ -128,9 +194,11 @@ footer a {text-decoration: none; font-size: .8333em;}
     #Goals{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
 }
 @media screen and (max-width:380px){
-    .iframe-container{width:100%; line-height: 1em; margin-left: 1em;margin-right: 1em;}
-    .resume{width:100%; line-height: 1em; margin-left: 1em; margin-right: 1em;}
    
+    .resume{width:100%; line-height: 1em; margin-left: 1em; margin-right: 1em;}
+   #Clat {width:100%; line-height: 1em; margin-left: 1em; margin-right: 1em;}
+    #nf {width:100%; line-height: 1em; margin-left: 1em; margin-right: 1em;}
+    #ati {width:100%; line-height: 1em; margin-left: 1em; margin-right: 1em;}
 }
 
 @media screen and (max-width:779px){
@@ -141,8 +209,9 @@ footer a {text-decoration: none; font-size: .8333em;}
      #connect{width:100%; line-height: 1em; margin-left: 1em;}
 }
 
-@media screen and (max-width: 375px) {
-    .box {clear:both; width:90%; height: auto; line-height: 1em; margin-left: .75em; margin-right: .75em; padding-bottom: 2px;}
+@media screen and (max-width: 640px) {
+    .box {clear:both; width:90%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto; padding-bottom: 2px;}
+     .iframe-container{width:50%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto;}
 }
 
 @media print{
