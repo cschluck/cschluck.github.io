@@ -32,11 +32,11 @@ main p {font-size: 1em; font-family: "Montserrat"}
 
 #column3 {float: left; height: 200px; padding: 10px; width: 300px; max-width: 33%; margin-right: 2em;} 
 
-#HQL {float: left; height: 425px; padding: 10px; width: 350px; max-width: 40%; margin-right: 2em; margin-left: 2em;}
+#HQL {float: left; height: 500px; padding: 10px; width: 350px; max-width: 40%; margin-right: 2em; margin-left: 2em;}
 
-#COL {float: left; padding: 10px; width: 300px; max-width: 30%; height: 425px; margin-right: 2em;} 
+#COL {float: left; padding: 10px; width: 300px; max-width: 30%; height: 500px; margin-left: 2em; margin-right: 2em;} 
 
-#Tech {float: left; height: 425px; padding: 10px; width: 300px; max-width: 30%; margin-right: 2em;}
+#Tech {float: left; height: 500px; padding: 10px; width: 300px; max-width: 30%; margin-left: 2em; margin-right: 2em;}
 p.reflection::first-letter {font-size: 1.33em; color: #3366ff; }
 
 p.philosophy::first-line {text-indent: 30px;}
@@ -66,11 +66,11 @@ p.philosophy::first-line {text-indent: 30px;}
         margin-top: 2em;
         margin-bottom:2em;    
         }
-#Goals {float: left; height: 200px; padding: 10px; width: 300px; max-width: 30%; margin-right: 2em; margin-left: 2em; padding-top: 2em;}
+#Goals {float: left; height: 275px; padding: 10px; width: 300px; max-width: 30%; margin-right: 2em; margin-left: 2em;}
 
-#Experience {float: left; height: 425px; padding: 10px; width: 450px; max-width: 50%; margin-right: 2em; margin-left: 2em;}
+#Experience {float: left; height: 425px; padding: 10px; width: 450px; max-width: 50%; margin-right: 1em; margin-left: 1em;}
 
-#Certifications {float: left; height: 425px; padding: 10px; width: 450px; max-width: 50%; margin-right: 2em; margin-left: 2em;}
+#Certifications {float: left; height: 425px; padding: 10px; width: 450px; max-width: 50%; margin-right: 1em; margin-left: 1em;}
 
 main a:link {color: orange;}
 main a:hover {color: red;}
