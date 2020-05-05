@@ -10,37 +10,60 @@ h3 {color: #3366ff; font-size: 1.33em; font-family: "Oswald";}
 
 h4 {font-size: 1.25em; font-family: "Montserrat"}
 
-body {font-family: "Montserrat"; background-color: lightgray; margin: 15px; padding: 25px; width: 90%;}
+body {font-family: "Montserrat"; background-color: lightgray; margin: 15px; padding: 25px;}
 
 main p {font-size: 1em; font-family: "Montserrat"}
 
+/****home page code is below *****/
+#welcome { background: white; float: left; width: 75%; max-width: 75%; margin-top: 2em; padding-left: 20px; padding-right: 20px;}
+
+#imageschluck {padding: 8px; border-style: solid; border-width: 15px; border-color: darkgray;float: right; margin-top: 2em; margin-right: 2em; max-width: 400px; height: auto; }
+
 .Teacher {font-size: 1em; font-family: "Montserrat"; color: #000; }
 
-.eMINTS {font-size: 1em; font-family: sans-serif; color: #000;}
+#glance {float: left; max-width: 100%; padding-left: 20px; padding-right: 20px;}
 
-#welcome {float: left; width: 670px; max-width: 70%; margin-left: 1em;}
+#column1 {background: white; float: left; height: 200px; padding: 10px; width: 300px; max-width: 30%; margin-right: 2em; margin-left: 2em;}
 
-#Personal {float: left; max-width: 100%;margin-left: 2em;}
+#Certs {background: darkgrey; float: left; padding: 10px; width: 300px; max-width: 30%; height: 200px; margin-right: 2em;} 
 
-#imageschluck {padding: 8px; border-style: solid; border-width: 15px; border-color: darkgray;float: right; margin-right: 2em; max-width: 400px; height: auto; margin-top: 1em;}
+#column3 {background: white; float: left; height: 200px; padding: 10px; width: 300px; max-width: 33%; margin-right: 2em;}
 
-#imagegoals {padding: 8px; border-style: solid; border-width: 15px; border-color: darkgray; float: left; margin-left: 2em; margin-right: 2em; max-width: 400px; height: auto; margin-bottom: .75em;}
+/****resume page code is below *****/
+.iframe-container {
+        width: 100%;
+        padding-top: 20px;    
+        padding-bottom: 5px;
+        height: 100%;
+        margin-left: 380px;
+        border: none;
+        }  
 
-#glance {float: left; max-width: 90%; margin-left: 2em; margin-right: 2em;}
+        .resume {
+        margin: auto;
+        width: 60%;
+        border: 10px solid darkgray;
+        background: white;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        text-align: center;
+        }   
 
-#column1 {float: left; height: 200px; padding: 10px; width: 300px; max-width: 30%; margin-right: 2em; margin-left: 2em;}
+/****reflection page code is below *****/
+#Personal {max-width: 100%; margin-top: 2em; margin-left: 1em;}
 
-#Certs {float: left; padding: 10px; width: 300px; max-width: 30%; height: 200px; margin-right: 2em;} 
+#HQL {float: left; background: white; height: 500px; padding: 10px; width: 350px; max-width: 40%; margin-top: 2em; margin-right: 2em; margin-left: 2em;}
 
-#column3 {float: left; height: 200px; padding: 10px; width: 300px; max-width: 33%; margin-right: 2em;} 
+#COL {float: left; background: darkgrey; padding: 10px;  width: 300px; max-width: 30%; height: 500px; margin-top: 2em; margin-left: 2em; margin-right: 2em;} 
 
-#HQL {float: left; height: 500px; padding: 10px; width: 350px; max-width: 40%; margin-right: 2em; margin-left: 2em;}
+#Tech {float: left; background: white; height: 500px; padding: 10px; width: 300px; max-width: 30%; margin-top: 2em; margin-left: 2em; margin-right: 2em;}
+p.reflection::first-letter {font-size: 1.33em; color: black; }
 
-#COL {float: left; padding: 10px; width: 300px; max-width: 30%; height: 500px; margin-left: 2em; margin-right: 2em;} 
+p.philosophy::first-line {text-indent: 30px;}
 
-#Tech {float: left; height: 500px; padding: 10px; width: 300px; max-width: 30%; margin-left: 2em; margin-right: 2em;}
-p.reflection::first-letter {font-size: 1.33em; color: #3366ff; }
+#Goals {margin-top: 3em; margin-right: 1em; margin-left: 1.5em; margin-bottom: 2em; padding: 5px; max-width: 100%; height: auto;}
 
+/****experience page code is below *****/
 #Clat {
         margin-left: .5em;
         margin-right: .5em;
@@ -76,26 +99,8 @@ p.reflection::first-letter {font-size: 1.33em; color: #3366ff; }
         margin-top: 2em;
         margin-bottom: 2em;
         }   
-p.philosophy::first-line {text-indent: 30px;}
 
-
-
-.iframe-container {
-        width: 100%;
-        padding-top: 20px;    
-        padding-bottom: 5px;
-        height: 100%;
-        }  
-
-        .resume {
-        margin: auto;
-        width: 60%;
-        border: 10px solid darkgray;
-        margin-top: 2em;
-        margin-bottom: 2em;
-        text-align: center;
-        }   
-            
+/****contact page code is below *****/          
 #connect {
         margin: auto;
         width: 60%;
@@ -103,25 +108,22 @@ p.philosophy::first-line {text-indent: 30px;}
         margin-top: 2em;
         margin-bottom:2em;    
         }
-#Goals {float: left; height: 275px; padding: 10px; width: 300px; max-width: 30%; margin-right: 2em; margin-left: 2em;}
 
-#Experience {float: left; height: 425px; padding: 10px; width: 450px; max-width: 50%; margin-right: 1em; margin-left: 1em;}
+/****background page code is below *****/
+#Experience {border: 10px solid darkgray; background: white; height: auto; padding: 10px; max-width: 100%; margin-top: 2em; margin-bottom: 1em;}
 
-#Certifications {float: left; height: 425px; padding: 10px; width: 450px; max-width: 50%; margin-right: 1em; margin-left: 1em;}
+#Certifications {border: 10px solid darkgray; float: left; background: white; height: auto; padding: 10px; max-width: 100%; margin-top: 1em; margin-bottom: 2em;}
 
-main a:link {color: orange;}
-main a:hover {color: red;}
-main a:visited {color: green;}
-main a:active {color: purple;}
-main a:focus {color: pink;}
+.eMINTS {font-size: 1em; font-family: sans-serif; color: #000;}
 
-blockquote {font-family: "Montserrat"; font-size: 1em; clear: both; padding-top: 2em;}
+blockquote {clear: both; font-family: "Montserrat"; font-size: 1em;  max-width: 100%; margin-bottom: 2em; padding-top: 2em;}
 
-
+/****footer code is below *****/
+main a:link {color: blue;}
 
 .box {
-    width: 90%;
-    height: 100px;
+    max-width: 100%;
+    height: 80px;
     padding: 20px;
     box-shadow: 0px 0px 10px 2px darkgrey;
     border: 10px solid darkgrey;
@@ -132,17 +134,10 @@ blockquote {font-family: "Montserrat"; font-size: 1em; clear: both; padding-top:
     margin-right: 1em;
     text-align: center;
 }
-footer {margin-top: 2em; border-top: dotted; border-top-color: black; border-top-width: 4px; padding: 10px; clear: both; font-family: "Montserrat"; font-size: .75em; text-align: center;}
+footer {max-width: 100%; margin-top: 2em; border-top: dotted; border-top-color: black; border-top-width: 4px; padding: 10px; clear: both; font-family: "Montserrat"; font-size: .75em; text-align: center; margin-left: 1em; margin-right: 1em;}
 
 
-
-footer::first-letter {font-size: .6777em;}
-footer a:link {color: orange;}
-footer a:hover {color: red;}
-footer a:visited {color: green;}
-footer a:active {color: purple;}
-footer a:focus {color: pink;}
-footer a {text-decoration: none; font-size: .8333em;}
+footer a:link {color: blue;}
 
 .email {
     width: 25px;
@@ -171,6 +166,8 @@ footer a {text-decoration: none; font-size: .8333em;}
 .phone:hover + .phonebig{
     width:50px;
 }
+
+
 @media screen and (max-width:889px){
     h1{font-size:2em;}
     h3{font-size: 1em;}
@@ -178,50 +175,64 @@ footer a {text-decoration: none; font-size: .8333em;}
     main p{font-size: .75em; line-height: 1em;}
     blockquote{font-size: .75em;}
     .eMINTS {font-size: .75em;}
+    #column1 {font-size: .75em;}
+    #Certs {font-size: .75em;}
+    #column3 {font-size: .75em;}
+    .Teacher {font-size: .75em;}
 }
-@media screen and (max-width:669px){
-    #welcome{clear:both; width:100%; line-height: 1em; margin-left: 1em;}
-    .Teacher{font-size: .75em; margin-left: 1em;}
-    #column1{clear:both; height: auto; font-size: .75em; line-height: 1em; width:100%; margin-left: 1em;}
-    #Certs{clear:both; font-size: .75em; height: auto; width:100%; line-height: 1em; margin-left: 1em; margin-top: 1em;}
-    #column3{clear:both; font-size: .75em; height: auto; width:100%; line-height: 1em; margin-left: 1em;}
+
+/***media query for home***/
+@media screen and (max-width:889px){
+    #welcome{width:100%; line-height: 1em; margin-left: 1em;}
+    #column1{clear: both; width:30%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto;}
+    #Certs{clear: both; width:30%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto;}
+    #column3{clear: both; width:30%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto;}
 }
+
+/***media query for resume***/
 @media screen and (max-width:889px){    
+    .resume{width:100%; line-height: 1em; margin-left: 1em; margin-right: 1em;}
+    .iframe-container{margin-left: auto; width:100%; height: auto;}
+}
+
+/***media query for experience***/
+@media screen and (max-width:889px){
+    #Clat {width:100%; line-height: 1em; margin-left: auto; margin-right: auto;}
+    #nf {width:100%; line-height: 1em; margin-left: auto; margin-right: auto;}
+    #ati {width:100%; line-height: 1em; margin-left: auto; margin-right: auto;}
+}
+/***media query for reflection***/
+@media screen and (max-width:889px){
     #Personal{clear:both; width:100%; line-height: 1em; margin-left: 1em;}
     #HQL{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
     #COL{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
     #Tech{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
     #Goals{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
 }
-@media screen and (max-width:380px){
-   
-    .resume{width:100%; line-height: 1em; margin-left: 1em; margin-right: 1em;}
-   #Clat {width:100%; line-height: 1em; margin-left: 1em; margin-right: 1em;}
-    #nf {width:100%; line-height: 1em; margin-left: 1em; margin-right: 1em;}
-    #ati {width:100%; line-height: 1em; margin-left: 1em; margin-right: 1em;}
+/***media query for background***/
+@media screen and (max-width:889px){
+     #Experience{width:100%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto;}
+     #Certifications{height: auto; width:100%; line-height: 1em; margin-left: auto; margin-right: auto;}
 }
 
-@media screen and (max-width:779px){
-     #Experience{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
-     #Certifications{clear:both; height: auto; width:100%; line-height: 1em; margin-left: 1em;}
-}
-@media screen and (max-width:375px){
+/***media query for contact***/
+@media screen and (max-width:889px){
      #connect{width:100%; line-height: 1em; margin-left: 1em;}
 }
 
+/***media query for footer***/
 @media screen and (max-width: 640px) {
     .box {clear:both; width:90%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto; padding-bottom: 2px;}
-     .iframe-container{width:50%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto;}
+     
 }
 
+/***print page***/
 @media print{
     *{
     background: transparent;
     color: #000;
     font-family: serif;
-    
-   
-        }
+    }
     }
 @media print{
     h1 {

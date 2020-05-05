@@ -8,6 +8,13 @@ nav{
     height: 60px;
     background-color: white;
     }
+
+.cindy{
+    font-family: "Courgette";
+    font-size: 1.5em;
+    padding-bottom: 0px 20px;
+    }
+
 nav p{
     font-family: "Oswald";
     color: #3366ff;
@@ -15,6 +22,8 @@ nav p{
     float: left;
     padding: 0px 20px;
     }
+
+
 nav ul{
     float: left;
     }
