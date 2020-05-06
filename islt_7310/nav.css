@@ -12,7 +12,7 @@ nav{
 .cindy{
     font-family: "Courgette";
     font-size: 1.5em;
-    padding-bottom: 0px 20px;
+    padding: 0px 0px 40px 20px;
     }
 
 nav p{
@@ -70,12 +70,20 @@ label {
 #toggle {
     display: none;
 }
+
+@media only screen and (max-width: 700px){
+.cindy {
+            font-size: .75em;
+    }
 @media only screen and (max-width: 640px){
     label {
         display: block;
     }
     #goals {
         display:none;
+         }
+    
+    
     }
     #menu {
         text-align: center;

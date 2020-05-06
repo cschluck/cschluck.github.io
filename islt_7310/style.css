@@ -31,11 +31,11 @@ main p {font-size: 1em; font-family: "Montserrat"}
 
 /****resume page code is below *****/
 .iframe-container {
-        width: 100%;
+        width: 600px;
+        height: auto;
         padding-top: 20px;    
         padding-bottom: 5px;
-        height: 100%;
-        margin-left: 380px;
+        margin-left: 460px;
         border: none;
         }  
 
@@ -109,12 +109,60 @@ p.philosophy::first-line {text-indent: 30px;}
         margin-bottom:2em;    
         }
 
+
+.form{
+    display: block;
+    font-family: "Montserrat";
+    font-size: 1em;
+    margin-left: 10em;
+
+}
+input {
+    
+    margin-left: 20em;
+    
+    width: 20em;
+    }
+    textarea {
+    
+    margin-left: 20em;
+    width: 20em;
+    margin-bottom: 2em;
+    }
+button{
+    margin-left: 50%;
+    margin-bottom: 2em;
+}
 /****background page code is below *****/
 #Experience {border: 10px solid darkgray; background: white; height: auto; padding: 10px; max-width: 100%; margin-top: 2em; margin-bottom: 1em;}
 
+table {
+    border-collapse: collapse;
+}
+
+table th {
+    text-align: left;
+    background-color: #3366ff;
+    color: black;
+    padding: 4px 30px 4px 8px;
+}
+
+table td {
+    border: 1px solid black;
+    padding: 4px 8px;
+}
+
+table tr:nth-child(odd) td {
+    background-color: darkgrey;
+    
+}
+table caption {
+    text-align: left;
+    font-size: .75em;
+}
 #Certifications {border: 10px solid darkgray; float: left; background: white; height: auto; padding: 10px; max-width: 100%; margin-top: 1em; margin-bottom: 2em;}
 
-.eMINTS {font-size: 1em; font-family: sans-serif; color: #000;}
+
 
 blockquote {clear: both; font-family: "Montserrat"; font-size: 1em;  max-width: 100%; margin-bottom: 2em; padding-top: 2em;}
 
@@ -173,27 +221,31 @@ footer a:link {color: blue;}
     h3{font-size: 1em;}
     h4{font-size: 1em;}
     main p{font-size: .75em; line-height: 1em;}
-    blockquote{font-size: .75em;}
-    .eMINTS {font-size: .75em;}
-    #column1 {font-size: .75em;}
-    #Certs {font-size: .75em;}
-    #column3 {font-size: .75em;}
-    .Teacher {font-size: .75em;}
+    blockquote{font-size: .75em}
+    #column1{font-size: 1em;}
+    #Certs{font-size: 1em;}
+    #column3{font-size: 1em;}
+    .Teacher{font-size: .75em;}
+    
 }
 
 /***media query for home***/
 @media screen and (max-width:889px){
     #welcome{width:100%; line-height: 1em; margin-left: 1em;}
-    #column1{clear: both; width:30%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto;}
-    #Certs{clear: both; width:30%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto;}
-    #column3{clear: both; width:30%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto;}
+    #column1{clear: both; background: lightgrey;  width:90%; height: auto; line-height: 1em; margin-left: 25%; margin-right: 25%;}
+    #Certs{clear: both; background: lightgrey; width:90%; height: auto; line-height: 1em; margin-left: 25%; margin-right: 25%;}
+    #column3{clear: both; background: lightgrey; width:90%; height: auto; line-height: 1em; margin-left: 25%; margin-right: 25%;}
 }
 
 /***media query for resume***/
-@media screen and (max-width:889px){    
-    .resume{width:100%; line-height: 1em; margin-left: 1em; margin-right: 1em;}
-    .iframe-container{margin-left: auto; width:100%; height: auto;}
+  @media screen and (max-width:500px){ 
+    .iframe-container{margin-left: auto; margin-right: auto; width: 300px; height: auto;} 
 }
+  @media screen and (max-width:889px){ 
+    .resume{width:100%; line-height: 1em; margin-left: 1em; margin-right: 1em;}
+    
+}
+
 
 /***media query for experience***/
 @media screen and (max-width:889px){
@@ -213,11 +265,35 @@ footer a:link {color: blue;}
 @media screen and (max-width:889px){
      #Experience{width:100%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto;}
      #Certifications{height: auto; width:100%; line-height: 1em; margin-left: auto; margin-right: auto;}
+    tr{font-size: .75em;}
+    table {width:80%; margin-left: auto; margin-right: auto;}
 }
 
 /***media query for contact***/
 @media screen and (max-width:889px){
      #connect{width:100%; line-height: 1em; margin-left: 1em;}
+    .form{
+    display: block;
+    font-family: "Montserrat";
+    font-size: .75em;
+    margin-left: auto; margin-right: auto;
+
+}
+input {
+    
+   
+    margin-left: auto; margin-right: auto;
+    width: 10em;
+    }
+    textarea {
+    margin-left: auto; margin-right: auto;
+    width: 10em;
+    margin-bottom: 2em;
+    }
+button{
+    margin-left: 50%;
+    margin-bottom: 2em;
+    
 }
 
 /***media query for footer***/
@@ -243,16 +319,15 @@ footer a:link {color: blue;}
         font-family: "Oswald";
         color: black;
 }
-}
+    }
 @media print{
     .nav {display: none;}
     .box {display:none;}
     }
 @media print{
     #welcome {width: 10cm; height: auto;}
-    #glance {display:none;}
-    #column1 {display:none;}
-    #Certs {display:none;}
-    #column3 {display:none;}
-}
-
+    #glance {display: none;}
+    #column1 {display: none;}
+    #Certs {display: none;}
+    #column3 {display: none;}
+    }
