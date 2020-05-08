@@ -260,9 +260,9 @@ footer a:link {color: blue;}
 
 /***media query for experience***/
 @media screen and (max-width:889px){
-    #Clat {width:100%; line-height: 1em; margin-left: auto; margin-right: auto;}
-    #nf {width:100%; line-height: 1em; margin-left: auto; margin-right: auto;}
-    #ati {width:100%; line-height: 1em; margin-left: auto; margin-right: auto;}
+    #Clat {width:90%; line-height: 1em; margin-left: auto; margin-right: auto;}
+    #nf {width:90%; line-height: 1em; margin-left: auto; margin-right: auto;}
+    #ati {width:90%; line-height: 1em; margin-left: auto; margin-right: auto;}
 }
 /***media query for reflection***/
 @media screen and (max-width:889px){
@@ -273,19 +273,16 @@ footer a:link {color: blue;}
     #Goals{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
 }
 /***media query for background***/
-@media screen and (max-width:640px){
+@media screen and (max-width:889px){
      #Experience{width:90%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto;}
      #Certifications{height: auto; width:90%; line-height: 1em; margin-left: auto; margin-right: auto;}
     tr{font-size: .75em;}
-     table {width:50%; height: auto; margin-left: auto; margin-right: auto;}
-}
-    @media screen and (max-width:400px){
-    table {width:90%; height: auto; margin-left: auto; margin-right: auto;}
+    #mobileTable {overflow-x: auto;}
 }
 
 /***media query for contact***/
 @media screen and (max-width:640px){
-     #connect{width:100%; line-height: 1em; margin-left: 1em;}
+     #connect{width:90%; line-height: 1em; margin-left: 1em;}
     .form{
     display: block;
     font-family: "Montserrat";

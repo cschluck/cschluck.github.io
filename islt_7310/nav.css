@@ -10,7 +10,7 @@ nav{
     }
 
 .cindy{font-family: "Oswald;
-        color: #3366ff
+        color: #3366ff;
         font-size: 1.5em;
         font-weight: bold;
         padding: 0px 20px;}
@@ -33,16 +33,6 @@ nav ul li{
     position: relative;
     text-align: center;
     padding: 0px 10px;
-    }
-
-.dropdown {
-    display: block;
-    font-family: "Oswald";
-    color: darkgray;
-    font-size: 1em;
-    padding: 3px 30px;
-    text-decoration: none;
-    text-align: center;
     }
 
 nav ul li a{
@@ -90,9 +80,10 @@ label {
     label {
         display: block;
     }
-    #goals {
-        display:none;
-         }
+   
+    .goals {
+        display: none;
+    }
     
     
     }
@@ -114,6 +105,8 @@ label {
         font-size: 1em;
         padding: 3px 30px;
     }
+     
+    
     #menu a:hover{
         background-color: #3366ff;
     }
