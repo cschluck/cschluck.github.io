@@ -1,7 +1,7 @@
 /*******************************************************************
 * Description: Primary style sheet for Cindy Schluckebier Portfolio
 * Author: Cindy Schluckebier
-* validated April 26, 2020 
+* validated May 8, 2020 
 *******************************************************************/
 
 h1 {color: #3366ff; font-size: 2rem; font-family: "Oswald"; text-align: center; border-bottom: solid; border-bottom-width: 8px; border-bottom-color: darkgray; background-color: lightgray;}
@@ -61,7 +61,7 @@ p.reflection::first-letter {font-size: 1.33em; color: black; }
 
 p.philosophy::first-line {text-indent: 30px;}
 
-#Goals {clear: float; margin-top: 1em; margin-right: 1em; margin-left: 1.5em; margin-bottom: 2em; padding: 20px; max-width: 100%; height: auto;}
+#Goals {margin-top: 1em; margin-right: 1em; margin-left: 1.5em; margin-bottom: 2em; padding: 20px; max-width: 100%; height: auto;}
 
 /****experience page code is below *****/
 #Clat {
@@ -324,21 +324,20 @@ button{
 @media print{
     h1 {
         font-family:"Oswald";
-        color: black;
-    }
+        color: black;}
     h3 {
         font-family: "Oswald";
-        color: black;
-}
+        color: black;}
     }
 @media print{
     .nav {display: none;}
     .box {display:none;}
     }
+    
 @media print{
     #welcome {width: 10cm; height: auto;}
-    #glance {display: none;}
-    #column1 {display: none;}
-    #Certs {display: none;}
-    #column3 {display: none;}
-    }
+    #glance {display:none;}
+    #column1 {display:none;}
+    #Certs {display:none;}
+    #column3 {display:none;}
+}

@@ -1,7 +1,7 @@
 /*****************************************************************
 * Description: Navigation sheet for Cindy Schluckebier Portfolio
 * Author: Cindy Schluckebier
-* validated April 26, 2020 
+* validated May 8, 2020 
 *******************************************************************/
 nav{
     width: 100%;
@@ -9,7 +9,7 @@ nav{
     background-color: white;
     }
 
-.cindy{font-family: "Oswald;
+.cindy{font-family: "Oswald";
         color: #3366ff;
         font-size: 1.5em;
         font-weight: bold;
