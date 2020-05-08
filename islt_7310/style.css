@@ -15,7 +15,7 @@ body {font-family: "Montserrat"; background-color: lightgray; margin: 15px; padd
 main p {font-size: 1em; font-family: "Montserrat"}
 
 /****home page code is below *****/
-#welcome { background: white; float: left; width: 75%; max-width: 75%; margin-top: 2em; padding-left: 20px; padding-right: 20px;}
+#welcome { background: white; float: left; width: 75%; max-width: 75%; padding-left: 20px; padding-right: 20px;}
 
 #imageschluck {padding: 8px; border-style: solid; border-width: 15px; border-color: darkgray;float: right; margin-top: 2em; margin-right: 2em; max-width: 400px; height: auto; }
 
@@ -23,11 +23,11 @@ main p {font-size: 1em; font-family: "Montserrat"}
 
 #glance {float: left; max-width: 100%; padding-left: 20px; padding-right: 20px;}
 
-#column1 {background: white; float: left; height: 200px; padding: 10px; width: 300px; max-width: 30%; margin-right: 2em; margin-left: 2em;}
+#column1 {background: white; float: left; height: 200px; padding: 10px; width: 350px; max-width: 30%; margin-right: 2em; margin-left: 2em;}
 
-#Certs {background: darkgrey; float: left; padding: 10px; width: 300px; max-width: 30%; height: 200px; margin-right: 2em;} 
+#Certs {background: darkgrey; float: left; padding: 10px; width: 350px; max-width: 30%; height: 200px; margin-right: 2em;} 
 
-#column3 {background: white; float: left; height: 200px; padding: 10px; width: 300px; max-width: 33%; margin-right: 2em;}
+#column3 {background: white; float: left; height: 200px; padding: 10px; width: 350px; max-width: 33%; margin-right: 2em;}
 
 /****resume page code is below *****/
 .iframe-container {
@@ -52,24 +52,23 @@ main p {font-size: 1em; font-family: "Montserrat"}
 /****reflection page code is below *****/
 #Personal {max-width: 100%; margin-top: 2em; margin-left: 1em;}
 
-#HQL {float: left; background: white; height: 500px; padding: 10px; width: 350px; max-width: 40%; margin-top: 2em; margin-right: 2em; margin-left: 2em;}
+#HQL {float: left; background: white; height: 500px; padding: 15px; width: 350px; max-width: 40%; margin-top: 2em; margin-right: 2em; margin-left: 2em;}
 
-#COL {float: left; background: darkgrey; padding: 10px;  width: 300px; max-width: 30%; height: 500px; margin-top: 2em; margin-left: 2em; margin-right: 2em;} 
+#COL {float: left; background: darkgrey; padding: 15px;  width: 300px; max-width: 30%; height: 500px; margin-top: 2em; margin-left: 2em; margin-right: 2em;} 
 
-#Tech {float: left; background: white; height: 500px; padding: 10px; width: 300px; max-width: 30%; margin-top: 2em; margin-left: 2em; margin-right: 2em;}
+#Tech {float: left; background: white; height: 500px; padding: 15px; width: 300px; max-width: 30%; margin-top: 2em; margin-left: 2em; margin-right: 2em;}
 p.reflection::first-letter {font-size: 1.33em; color: black; }
 
 p.philosophy::first-line {text-indent: 30px;}
 
-#Goals {margin-top: 3em; margin-right: 1em; margin-left: 1.5em; margin-bottom: 2em; padding: 5px; max-width: 100%; height: auto;}
+#Goals {clear: float; margin-top: 1em; margin-right: 1em; margin-left: 1.5em; margin-bottom: 2em; padding: 20px; max-width: 100%; height: auto;}
 
 /****experience page code is below *****/
 #Clat {
-        margin-left: .5em;
-        margin-right: .5em;
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 95%;
+        margin-left: 1.5em;
+        margin-right: 1em;
+        padding: 20px;
+        width: 90%;
         border: 10px solid darkgray;
         background-color: white;
         margin-top: 2em;
@@ -77,11 +76,10 @@ p.philosophy::first-line {text-indent: 30px;}
         }   
 
 #nf {
-        margin-left: .5em;
-        margin-right: .5em;
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 95%;
+        margin-left: 1.5em;
+        margin-right: 1em;
+        padding: 20px;
+        width: 90%;
         border: 10px solid darkgray;
         background-color: white;
         margin-top: 2em;
@@ -89,11 +87,10 @@ p.philosophy::first-line {text-indent: 30px;}
         }
 
 #ati {
-        margin-left: .5em;
-        margin-right: .5em;
-        padding-left: 10px;
-        padding-right: 10px;
-        width: 95%;
+        margin-left: 1.5em;
+        margin-right: 1em;
+        padding: 20px;
+        width: 90%;
         border: 10px solid darkgray;
         background-color: white;
         margin-top: 2em;
@@ -134,7 +131,14 @@ button{
     margin-bottom: 2em;
 }
 /****background page code is below *****/
-#Experience {border: 10px solid darkgray; background: white; height: auto; padding: 10px; max-width: 100%; margin-top: 2em; margin-bottom: 1em;}
+#Experience {margin-left: 1.5em;
+        margin-right: 1em;
+        padding: 20px;
+        width: 90%;
+        border: 10px solid darkgray;
+        background-color: white;
+        margin-top: 2em;
+        margin-bottom: 2em;}
 
 table {
     border-collapse: collapse;
@@ -160,7 +164,14 @@ table caption {
     text-align: left;
     font-size: .75em;
 }
-#Certifications {border: 10px solid darkgray; float: left; background: white; height: auto; padding: 10px; max-width: 100%; margin-top: 1em; margin-bottom: 2em;}
+#Certifications {margin-left: 1.5em;
+        margin-right: 1em;
+        padding: 20px;
+        width: 90%;
+        border: 10px solid darkgray;
+        background-color: white;
+        margin-top: 2em;
+        margin-bottom: 2em;}
 
 
 
@@ -232,9 +243,9 @@ footer a:link {color: blue;}
 /***media query for home***/
 @media screen and (max-width:889px){
     #welcome{width:100%; line-height: 1em; margin-left: 1em;}
-    #column1{clear: both; background: lightgrey;  width:90%; height: auto; line-height: 1em; margin-left: 25%; margin-right: 25%;}
-    #Certs{clear: both; background: lightgrey; width:90%; height: auto; line-height: 1em; margin-left: 25%; margin-right: 25%;}
-    #column3{clear: both; background: lightgrey; width:90%; height: auto; line-height: 1em; margin-left: 25%; margin-right: 25%;}
+    #column1{clear: both; background: lightgrey;  width:350px; height: auto; line-height: 1em; margin-left: 25%; margin-right: 25%;}
+    #Certs{clear: both; background: lightgrey; width:350px; height: auto; line-height: 1em; margin-left: 25%; margin-right: 25%;}
+    #column3{clear: both; background: lightgrey; width:350px; height: auto; line-height: 1em; margin-left: 25%; margin-right: 25%;}
 }
 
 /***media query for resume***/
@@ -262,15 +273,18 @@ footer a:link {color: blue;}
     #Goals{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
 }
 /***media query for background***/
-@media screen and (max-width:889px){
-     #Experience{width:100%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto;}
-     #Certifications{height: auto; width:100%; line-height: 1em; margin-left: auto; margin-right: auto;}
+@media screen and (max-width:640px){
+     #Experience{width:90%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto;}
+     #Certifications{height: auto; width:90%; line-height: 1em; margin-left: auto; margin-right: auto;}
     tr{font-size: .75em;}
-    table {width:80%; margin-left: auto; margin-right: auto;}
+     table {width:50%; height: auto; margin-left: auto; margin-right: auto;}
+}
+    @media screen and (max-width:400px){
+    table {width:90%; height: auto; margin-left: auto; margin-right: auto;}
 }
 
 /***media query for contact***/
-@media screen and (max-width:889px){
+@media screen and (max-width:640px){
      #connect{width:100%; line-height: 1em; margin-left: 1em;}
     .form{
     display: block;

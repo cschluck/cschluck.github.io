@@ -9,11 +9,11 @@ nav{
     background-color: white;
     }
 
-.cindy{
-    font-family: "Courgette";
-    font-size: 1.5em;
-    padding: 0px 0px 40px 20px;
-    }
+.cindy{font-family: "Modak", cursive;
+        color: #3366ff
+        font-size: 1.5em;
+        font-weight: bold;
+        padding: 0px 20px;}
 
 nav p{
     font-family: "Oswald";
@@ -34,6 +34,17 @@ nav ul li{
     text-align: center;
     padding: 0px 10px;
     }
+
+.dropdown {
+    display: block;
+    font-family: "Oswald";
+    color: darkgray;
+    font-size: 1em;
+    padding: 3px 30px;
+    text-decoration: none;
+    text-align: center;
+    }
+
 nav ul li a{
     display: block;
     font-family: "Oswald";
