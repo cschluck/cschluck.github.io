@@ -1,7 +1,7 @@
 /*******************************************************************
 * Description: Primary style sheet for Cindy Schluckebier Portfolio
 * Author: Cindy Schluckebier
-* validated May 8, 2020 
+* validated May 11, 2020 
 *******************************************************************/
 
 h1 {color: #3366ff; font-size: 2rem; font-family: "Oswald"; text-align: center; border-bottom: solid; border-bottom-width: 8px; border-bottom-color: darkgray; background-color: lightgray;}
@@ -29,7 +29,7 @@ main p {font-size: 1em; font-family: "Montserrat"}
 
 #column3 {background: white; float: left; height: 200px; padding: 10px; width: 350px; max-width: 33%; margin-right: 2em;}
 
-/****resume page code is below *****/
+/*resume page code is below */
 .iframe-container {
         width: 600px;
         height: auto;
@@ -49,7 +49,7 @@ main p {font-size: 1em; font-family: "Montserrat"}
         text-align: center;
         }   
 
-/****reflection page code is below *****/
+/*reflection page code is below */
 #Personal {max-width: 100%; margin-top: 2em; margin-left: 1em;}
 
 #HQL {float: left; background: white; height: 500px; padding: 15px; width: 350px; max-width: 40%; margin-top: 2em; margin-right: 2em; margin-left: 2em;}
@@ -63,7 +63,7 @@ p.philosophy::first-line {text-indent: 30px;}
 
 #Goals {margin-top: 1em; margin-right: 1em; margin-left: 1.5em; margin-bottom: 2em; padding: 20px; max-width: 100%; height: auto;}
 
-/****experience page code is below *****/
+/* experience page code is below */
 #Clat {
         margin-left: 1.5em;
         margin-right: 1em;
@@ -97,7 +97,7 @@ p.philosophy::first-line {text-indent: 30px;}
         margin-bottom: 2em;
         }   
 
-/****contact page code is below *****/          
+/*contact page code is below */          
 #connect {
         margin: auto;
         width: 60%;
@@ -130,7 +130,7 @@ button{
     margin-left: 50%;
     margin-bottom: 2em;
 }
-/****background page code is below *****/
+/*background page code is below */
 #Experience {margin-left: 1.5em;
         margin-right: 1em;
         padding: 20px;
@@ -177,7 +177,7 @@ table caption {
 
 blockquote {clear: both; font-family: "Montserrat"; font-size: 1em;  max-width: 100%; margin-bottom: 2em; padding-top: 2em;}
 
-/****footer code is below *****/
+/*footer code is below */
 main a:link {color: blue;}
 
 .box {
@@ -240,7 +240,7 @@ footer a:link {color: blue;}
     
 }
 
-/***media query for home***/
+/*media query for home*/
 @media screen and (max-width:889px){
     #welcome{width:100%; line-height: 1em; margin-left: 1em;}
     #column1{clear: both; background: lightgrey;  width:350px; height: auto; line-height: 1em; margin-left: 25%; margin-right: 25%;}
@@ -248,7 +248,7 @@ footer a:link {color: blue;}
     #column3{clear: both; background: lightgrey; width:350px; height: auto; line-height: 1em; margin-left: 25%; margin-right: 25%;}
 }
 
-/***media query for resume***/
+/*media query for resume*/
   @media screen and (max-width:500px){ 
     .iframe-container{margin-left: auto; margin-right: auto; width: 300px; height: auto;} 
 }
@@ -258,13 +258,13 @@ footer a:link {color: blue;}
 }
 
 
-/***media query for experience***/
+/*media query for experience*/
 @media screen and (max-width:889px){
     #Clat {width:90%; line-height: 1em; margin-left: auto; margin-right: auto;}
     #nf {width:90%; line-height: 1em; margin-left: auto; margin-right: auto;}
     #ati {width:90%; line-height: 1em; margin-left: auto; margin-right: auto;}
 }
-/***media query for reflection***/
+/*media query for reflection*/
 @media screen and (max-width:889px){
     #Personal{clear:both; width:100%; line-height: 1em; margin-left: 1em;}
     #HQL{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
@@ -272,7 +272,7 @@ footer a:link {color: blue;}
     #Tech{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
     #Goals{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
 }
-/***media query for background***/
+/*media query for background*/
 @media screen and (max-width:889px){
      #Experience{width:90%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto;}
      #Certifications{height: auto; width:90%; line-height: 1em; margin-left: auto; margin-right: auto;}
@@ -280,7 +280,7 @@ footer a:link {color: blue;}
     #mobileTable {overflow-x: auto;}
 }
 
-/***media query for contact***/
+/*media query for contact*/
 @media screen and (max-width:640px){
      #connect{width:90%; line-height: 1em; margin-left: 1em;}
     .form{
@@ -307,13 +307,13 @@ button{
     
 }
 
-/***media query for footer***/
+/*media query for footer*/
 @media screen and (max-width: 640px) {
     .box {clear:both; width:90%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto; padding-bottom: 2px;}
      
 }
 
-/***print page***/
+/*print page*/
 @media print{
     *{
     background: transparent;
