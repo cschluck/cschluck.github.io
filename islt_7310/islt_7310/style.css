@@ -1,0 +1,343 @@
+/*******************************************************************
+* Description: Primary style sheet for Cindy Schluckebier Portfolio
+* Author: Cindy Schluckebier
+* validated May 11, 2020 
+*******************************************************************/
+
+h1 {color: #3366ff; font-size: 2rem; font-family: "Oswald"; text-align: center; border-bottom: solid; border-bottom-width: 8px; border-bottom-color: darkgray; background-color: lightgray;}
+
+h3 {color: #3366ff; font-size: 1.33em; font-family: "Oswald";}
+
+h4 {font-size: 1.25em; font-family: "Montserrat"}
+
+body {font-family: "Montserrat"; background-color: lightgray; margin: 15px; padding: 25px;}
+
+main p {font-size: 1em; font-family: "Montserrat"}
+
+/****home page code is below *****/
+#welcome { background: white; float: left; width: 75%; max-width: 75%; padding-left: 20px; padding-right: 20px;}
+
+#imageschluck {padding: 8px; border-style: solid; border-width: 15px; border-color: darkgray;float: right; margin-top: 2em; margin-right: 2em; max-width: 400px; height: auto; }
+
+.Teacher {font-size: 1em; font-family: "Montserrat"; color: #000; }
+
+#glance {float: left; max-width: 100%; padding-left: 20px; padding-right: 20px;}
+
+#column1 {background: white; float: left; height: 200px; padding: 10px; width: 350px; max-width: 30%; margin-right: 2em; margin-left: 2em;}
+
+#Certs {background: darkgrey; float: left; padding: 10px; width: 350px; max-width: 30%; height: 200px; margin-right: 2em;} 
+
+#column3 {background: white; float: left; height: 200px; padding: 10px; width: 350px; max-width: 33%; margin-right: 2em;}
+
+/*resume page code is below */
+.iframe-container {
+        width: 600px;
+        height: auto;
+        padding-top: 20px;    
+        padding-bottom: 5px;
+        margin-left: 460px;
+        border: none;
+        }  
+
+        .resume {
+        margin: auto;
+        width: 60%;
+        border: 10px solid darkgray;
+        background: white;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        text-align: center;
+        }   
+
+/*reflection page code is below */
+#Personal {max-width: 100%; margin-top: 2em; margin-left: 1em;}
+
+#HQL {float: left; background: white; height: 500px; padding: 15px; width: 350px; max-width: 40%; margin-top: 2em; margin-right: 2em; margin-left: 2em;}
+
+#COL {float: left; background: darkgrey; padding: 15px;  width: 300px; max-width: 30%; height: 500px; margin-top: 2em; margin-left: 2em; margin-right: 2em;} 
+
+#Tech {float: left; background: white; height: 500px; padding: 15px; width: 300px; max-width: 30%; margin-top: 2em; margin-left: 2em; margin-right: 2em;}
+p.reflection::first-letter {font-size: 1.33em; color: black; }
+
+p.philosophy::first-line {text-indent: 30px;}
+
+#Goals {margin-top: 1em; margin-right: 1em; margin-left: 1.5em; margin-bottom: 2em; padding: 20px; max-width: 100%; height: auto;}
+
+/* experience page code is below */
+#Clat {
+        margin-left: 1.5em;
+        margin-right: 1em;
+        padding: 20px;
+        width: 90%;
+        border: 10px solid darkgray;
+        background-color: white;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        }   
+
+#nf {
+        margin-left: 1.5em;
+        margin-right: 1em;
+        padding: 20px;
+        width: 90%;
+        border: 10px solid darkgray;
+        background-color: white;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        }
+
+#ati {
+        margin-left: 1.5em;
+        margin-right: 1em;
+        padding: 20px;
+        width: 90%;
+        border: 10px solid darkgray;
+        background-color: white;
+        margin-top: 2em;
+        margin-bottom: 2em;
+        }   
+
+/*contact page code is below */          
+#connect {
+        margin: auto;
+        width: 60%;
+        border: 10px solid darkgray;
+        margin-top: 2em;
+        margin-bottom:2em;    
+        }
+
+
+.form{
+    display: block;
+    font-family: "Montserrat";
+    font-size: 1em;
+    margin-left: 10em;
+
+}
+input {
+    
+    margin-left: 20em;
+    
+    width: 20em;
+    }
+    textarea {
+    
+    margin-left: 20em;
+    width: 20em;
+    margin-bottom: 2em;
+    }
+button{
+    margin-left: 50%;
+    margin-bottom: 2em;
+}
+/*background page code is below */
+#Experience {margin-left: 1.5em;
+        margin-right: 1em;
+        padding: 20px;
+        width: 90%;
+        border: 10px solid darkgray;
+        background-color: white;
+        margin-top: 2em;
+        margin-bottom: 2em;}
+
+table {
+    border-collapse: collapse;
+}
+
+table th {
+    text-align: left;
+    background-color: #3366ff;
+    color: black;
+    padding: 4px 30px 4px 8px;
+}
+
+table td {
+    border: 1px solid black;
+    padding: 4px 8px;
+}
+
+table tr:nth-child(odd) td {
+    background-color: darkgrey;
+    
+}
+table caption {
+    text-align: left;
+    font-size: .75em;
+}
+#Certifications {margin-left: 1.5em;
+        margin-right: 1em;
+        padding: 20px;
+        width: 90%;
+        border: 10px solid darkgray;
+        background-color: white;
+        margin-top: 2em;
+        margin-bottom: 2em;}
+
+
+
+blockquote {clear: both; font-family: "Montserrat"; font-size: 1em;  max-width: 100%; margin-bottom: 2em; padding-top: 2em;}
+
+/*footer code is below */
+main a:link {color: blue;}
+
+.box {
+    max-width: 100%;
+    height: 80px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px 2px darkgrey;
+    border: 10px solid darkgrey;
+    
+    background-image: url("images/footer.png");
+    background-size: cover;
+    margin-left: 1em;
+    margin-right: 1em;
+    text-align: center;
+}
+footer {max-width: 100%; margin-top: 2em; border-top: dotted; border-top-color: black; border-top-width: 4px; padding: 10px; clear: both; font-family: "Montserrat"; font-size: .75em; text-align: center; margin-left: 1em; margin-right: 1em;}
+
+
+footer a:link {color: blue;}
+
+.email {
+    width: 25px;
+    height: auto;
+}
+.emailbig {
+    position: absolute;
+    width: 0;
+    -webkit-transition:width 0.3s linear 1s;
+    transition:width 0.3s linear 0s; z-index: 10;
+}
+.email:hover + .emailbig{
+    width:50px;
+}
+
+.phone {
+    width: 25px;
+    height: auto;
+}
+.phonebig {
+    position: absolute;
+    width: 0;
+    -webkit-transition:width 0.3s linear 1s;
+    transition:width 0.3s linear 0s; z-index: 10;
+}
+.phone:hover + .phonebig{
+    width:50px;
+}
+
+
+@media screen and (max-width:889px){
+    h1{font-size:2em;}
+    h3{font-size: 1em;}
+    h4{font-size: 1em;}
+    main p{font-size: .75em; line-height: 1em;}
+    blockquote{font-size: .75em}
+    #column1{font-size: 1em;}
+    #Certs{font-size: 1em;}
+    #column3{font-size: 1em;}
+    .Teacher{font-size: .75em;}
+    
+}
+
+/*media query for home*/
+@media screen and (max-width:889px){
+    #welcome{width:100%; line-height: 1em; margin-left: 1em;}
+    #column1{clear: both; background: lightgrey;  width:350px; height: auto; line-height: 1em; margin-left: 25%; margin-right: 25%;}
+    #Certs{clear: both; background: lightgrey; width:350px; height: auto; line-height: 1em; margin-left: 25%; margin-right: 25%;}
+    #column3{clear: both; background: lightgrey; width:350px; height: auto; line-height: 1em; margin-left: 25%; margin-right: 25%;}
+}
+
+/*media query for resume*/
+  @media screen and (max-width:500px){ 
+    .iframe-container{margin-left: auto; margin-right: auto; width: 300px; height: auto;} 
+}
+  @media screen and (max-width:889px){ 
+    .resume{width:100%; line-height: 1em; margin-left: 1em; margin-right: 1em;}
+    
+}
+
+
+/*media query for experience*/
+@media screen and (max-width:889px){
+    #Clat {width:90%; line-height: 1em; margin-left: auto; margin-right: auto;}
+    #nf {width:90%; line-height: 1em; margin-left: auto; margin-right: auto;}
+    #ati {width:90%; line-height: 1em; margin-left: auto; margin-right: auto;}
+}
+/*media query for reflection*/
+@media screen and (max-width:889px){
+    #Personal{clear:both; width:100%; line-height: 1em; margin-left: 1em;}
+    #HQL{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
+    #COL{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
+    #Tech{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
+    #Goals{clear:both; width:100%; height: auto; line-height: 1em; margin-left: 1em;}
+}
+/*media query for background*/
+@media screen and (max-width:889px){
+     #Experience{width:90%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto;}
+     #Certifications{height: auto; width:90%; line-height: 1em; margin-left: auto; margin-right: auto;}
+    tr{font-size: .75em;}
+    #mobileTable {overflow-x: auto;}
+}
+
+/*media query for contact*/
+@media screen and (max-width:640px){
+     #connect{width:90%; line-height: 1em; margin-left: 1em;}
+    .form{
+    display: block;
+    font-family: "Montserrat";
+    font-size: .75em;
+    margin-left: auto; margin-right: auto;
+
+}
+input {
+    
+   
+    margin-left: auto; margin-right: auto;
+    width: 10em;
+    }
+    textarea {
+    margin-left: auto; margin-right: auto;
+    width: 10em;
+    margin-bottom: 2em;
+    }
+button{
+    margin-left: 50%;
+    margin-bottom: 2em;
+    
+}
+
+/*media query for footer*/
+@media screen and (max-width: 640px) {
+    .box {clear:both; width:90%; height: auto; line-height: 1em; margin-left: auto; margin-right: auto; padding-bottom: 2px;}
+     
+}
+
+/*print page*/
+@media print{
+    *{
+    background: transparent;
+    color: #000;
+    font-family: serif;
+    }
+    }
+@media print{
+    h1 {
+        font-family:"Oswald";
+        color: black;}
+    h3 {
+        font-family: "Oswald";
+        color: black;}
+    }
+@media print{
+    .nav {display: none;}
+    .box {display:none;}
+    }
+    
+@media print{
+    #welcome {width: 10cm; height: auto;}
+    #glance {display:none;}
+    #column1 {display:none;}
+    #Certs {display:none;}
+    #column3 {display:none;}
+}
